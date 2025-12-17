@@ -1,16 +1,55 @@
-# React + Vite
+# 📝 Daily Routine — Advanced Task Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A high-performance, minimalist task management web application. Built with a "Glassmorphism" aesthetic, it focuses on a premium user experience and clean data organization.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **Wholistic UI:** Modern "Glassmorphism" design with backdrop blurs and mesh gradients.
+* **Task Management:** Full Create, Read, and Delete (CRD) functionality with category tagging.
+* **Category Filtering:** Dynamic filtering for **Work**, **Personal**, and **Health** tasks using gradient cards.
+* **Persistent Settings:** Your Theme (Dark/Light) and Time Format (12h/24h) are saved to `localStorage`.
+* **Sync Hub:** Integrated visual cards for **Google Calendar** and **Cloud Sync** readiness.
+* **Responsive Design:** Fully optimized for mobile, tablet, and desktop views.
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **Frontend:** [React.js](https://reactjs.org/)
+* **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+* **Routing:** [React Router DOM](https://reactrouter.com/)
+* **State Management:** [React Context API](https://react.dev/learn/passing-data-deeply-with-context)
+
+
+
+## 🚀 Installation & Setup
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/appiahsikaphilip/FE-CAPSTONE-PROJECT.git](https://github.com/appiahsikaphilip/FE-CAPSTONE-PROJECT.git)
+2.**Navigate to the project folder:**
+
+Bash
+
+cd daily-routine-app
+
+3.**Install dependencies:**
+
+Bash
+
+npm install
+
+4.**Start the development server:**
+
+Bash
+
+npm run dev
+
+📂 **Project Structure**
+**src/context/**: Contains AppContext.jsx for global state and persistence.
+
+**src/pages/**: Contains Home.jsx, TaskHistory.jsx, and Settings.jsx.
+
+**src/components/**: Reusable UI elements like the Navbar.
+
+**src/index.css**: Custom CSS for SVG background patterns (Gears/Dots).
